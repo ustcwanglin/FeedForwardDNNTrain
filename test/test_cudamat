@@ -46,7 +46,7 @@ def test_T_field():
     gm3 = cm.CUDAMatrix(cm3)
     gm3.add_dot(gm2.T, gm1.T)
     c = cm3 + np.dot(cm2.T, cm1.T)
-    gm3.copy_to_host()
+    gm3.copy_to_host() 
 
     assert np.max(np.abs(gm3.numpy_array - c)) < 10**-2, "Error in CUDAMatrix.add_dot TransposedCUDAMatrix exceeded threshold"
 
