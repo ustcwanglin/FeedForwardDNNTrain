@@ -47,7 +47,7 @@ fork.
 
 If you haven't forked FeedForwardDNNTrain yet, log in to your github account, go to
 https://github.com/FeedForwardDNNTrain/FeedForwardDNNTrain and hit the "Fork" button.
-Now instead of having `origin` point to `FeedForwardDNNTrain/FeedForwardDNNTrain`, you will want to have
+Now instead of having `origin` point to `ustcwanglin/FeedForwardDNNTrain`, you will want to have
 it point to your fork, and have `upstream` point to the official project:
 
 ```bash
