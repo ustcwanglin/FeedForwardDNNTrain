@@ -1,5 +1,4 @@
 # FeedForwardDNNTrain
-FeedForwardDNNTrain
 =======
 
 The aim of the FeedForwardDNNTrain project is to perform basic training of 
