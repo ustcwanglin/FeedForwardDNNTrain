@@ -46,9 +46,9 @@ Testing
 To test your setup, run the included unit tests and optionally the benchmark:
 
 ```bash
-cd test  # so it doesn't try importing FeedForwardDNNTrain from the source directory
+cd test  
 # Run tests
 nosetests
 # Run benchmark
-python ../examples/bench_cudamat.py
+python ../FFDNNT/bench_cudamat.py
 ```
