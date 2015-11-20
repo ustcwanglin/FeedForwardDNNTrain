@@ -32,7 +32,7 @@ Download
 You can obtain the latest release from the repository by typing:
 
 ```bash
-git clone https://github.com/FeedForwardDNNTrain/FeedForwardDNNTrain.git
+git clone https://github.com/ustcwanglin/FeedForwardDNNTrain.git
 ```
 
 Installation
